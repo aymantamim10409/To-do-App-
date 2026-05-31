@@ -1,0 +1,92 @@
+body{
+    background: linear-gradient(to right,white,gray,black);
+    font-family: Arial, sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.container{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 50%;
+    height: 80vh;
+    background: rgb(109,105,105);
+    color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    overflow: auto;
+}
+
+.card-title{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+#input{
+    width: 80%;
+    padding: 0.5rem;
+    border-radius: 10px;
+    border: none;
+}
+
+.btn{
+    width: 18%;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 10px;
+    background: dodgerblue;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: orange;
+}
+
+.li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(70,80,90);
+    padding: 0.5rem;
+    margin: 1rem 0;
+    border-radius: 10px;
+}
+
+.btn1{
+    background: dodgerblue;
+    border: none;
+    padding: 0.4rem 0.7rem;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.btn1:hover{
+    background: orange;
+}
+
+i{
+    color: red;
+}
+
+/* SINGLE MESSAGE BOX */
+#mes{
+    display: none;
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    text-align: center;
+    border-radius: 20px;
+    color: black;
+    box-shadow: 1px 1px 5px gray;
+}
